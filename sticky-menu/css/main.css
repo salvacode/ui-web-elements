@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,200&display=swap');
+
+html{
+    font-family: 'Nunito', sans-serif;
+}
+
+h2, p{
+    padding-left: 50px;
+}
+
+.hero-header{
+    height: 600px;
+    background: #1bbd5c;
+    /* padding-top: 1px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+    height: 1500px;
+
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
