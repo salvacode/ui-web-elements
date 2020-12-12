@@ -1,0 +1,73 @@
+/* Referencia de colores:
+
+Rosa: #C6426E
+Morado: #642B73
+Negro: #999999
+Gris: #f5f5f5
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,200&display=swap');
+
+html{
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #d500f9
+}
+
+.container{
+    background: #348F50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content{
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 4px;
+    padding: 1.8em;
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0; /* Define el espacio de separación entre cada uno de los bordes de las celdas. Por defecto son 2px */
+}
+
+
+
+/* Elementos td que estén dentro de una clase .table */
+.table td, .table th{
+    padding: 1em;
+}
+
+.table th{
+    text-align: left;
+}
+
+.table td{
+    text-align: left;
+}
+
+.table tr:nth-child(even){
+    background-color: #f3e5f5;
+}
+
+.fa-star{
+    color: #ffc400;
+}
