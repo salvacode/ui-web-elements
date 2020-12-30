@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+.custom-with-js{
+    /* position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 100px 40px;
+    text-align: center;
+    width: 40%;
+    
+}
+
+
+.custom-with-css{
+    
+    text-align: center;
+    width: 50%;
+}
+
+
+
+
+li[data-postre='Tarta de chocolate'] {
+    color: #805a46;
+ }
+
+ li[data-postre='Arroz con leche'] {
+    color: #e5dcd6;
+ }
+
+ li[data-postre='Tarta de fresa'] {
+    color: #d53032;
+ }
